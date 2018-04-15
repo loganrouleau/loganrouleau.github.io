@@ -1,0 +1,46 @@
+html {
+    font-family: 'PT Sans', sans-serif;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.site-title {
+    color: #086788;
+}
+
+a {
+    color: #000000;
+}
+
+a.site-title {
+    text-decoration: none;
+}
+
+a.navigation-item {
+    text-decoration: none;
+}
+
+code {
+    font-family: 'Andale Mono', monospace;
+    background-color: #e6e6e6
+}
+
+.navigation-item {
+    color: #000000;
+    border-bottom: 2px solid #f0c808;
+}
+
+/* Container holding the image and the text */
+.container {
+    margin: auto;
+    position: relative;
+    /*max-width: 600px;*/
+}
+/* Bottom right text */
+.text-block {
+    position: absolute;
+    bottom: 50%;
+    right: 10%;
+    margin: 6px 4px 0px 4px;
+    padding: 6px 6px 6px 6px;
+}
