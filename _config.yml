@@ -21,7 +21,7 @@ navigation:
 
 # Sass settings
 sass:
-    sass_dir: _scss
+    sass_dir: _sass
     style: :compressed
 
 exclude:

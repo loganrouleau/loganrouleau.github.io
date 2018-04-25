@@ -1,36 +1,31 @@
 <header>
-
     {% if page.title %}
-    <title>{{ page.title }} | {{ site.name }}</title>
+    <title>{{ page.title }} | {{ site.author }}</title>
     {% else %}
-    <title>{{ site.name }}</title>
+    <title>{{ site.author }}</title>
     {% endif %}
 
-    <div class="container">
-        <img src="{{ site.baseurl }}assets/cover-image.jpg" alt="Running!" style="width: 20%">
-        <div class="text-block">
-            <div class="clearfix">
-                <div class="col col-6">
-                    <h1>
-                        <a href="{{ '/' | relative_url }}" class="site-title">
-                            {{ site.title }}
-                        </a>
-                    </h1>
-                </div>
+    {%- include banner.html -%}
 
-                <div class="col col-6">
-                    <ul class="list-reset right-align">
-                        {% for entry in site.navigation %}
-                        <li class="inline-block mr1">
-                            <a href="{{ entry.url | header_link }}" class="navigation-item">
-                                {{ entry.title }}
-                            </a>
-                        </li>
-                        {% endfor %}
-                    </ul>
-                </div>
-            </div>
-        </div>
+    <div class="topnav" id="myTopnav">
+        <a href="/" class="active">Home</a>
+        {% for entry in site.navigation %}
+        <a href="{{ entry.url }}">{{ entry.title }}</a>
+        {% endfor %}
+        <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
     </div>
+
+    <script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+
+
+    </script>
 
 </header>
