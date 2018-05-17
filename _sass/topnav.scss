@@ -2,31 +2,30 @@
 
 .topnav {
   overflow: hidden;
-  background-color: $color-primary-4;
+  background-color: $darkest-slate-grey;
   max-width: $banner-width;
   margin: auto;
+  text-align: center;
   /* border-left: 1px solid black;
   border-right: 1px solid black;
   border-bottom: 1px solid black; */
 }
 
 .topnav a {
-  float: left;
-  display: block;
-  color: $color-primary-1;
-  text-align: center;
-  padding: 14px 16px;
+  display: inline-block;
+  color: $light-blue;
+  padding: 16px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 18px;
 }
 
 .topnav a:hover {
-  background-color: $color-complement-4;
+  background-color: $dark-slate-grey;
   color: black;
 }
 
 .active {
-  background-color: $color-primary-0;
+  background-color: $light-steel-blue;
   color: white;
 }
 

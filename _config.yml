@@ -16,6 +16,8 @@ plugins:
 navigation:
   - title: About
     url: /about
+  - title: Strava
+    url: https://www.strava.com/athletes/19307941
   - title: GitHub
     url: https://github.com/loganrouleau
 

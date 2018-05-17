@@ -12,19 +12,23 @@ html {
     color: black;
 }
 
+body {
+	background-color: #efefef;
+}
+
 .site-title {
-    color: $color-primary-0;
+    color: $light-steel-blue;
     text-decoration: none;
 }
 
 code {
     font-family: $code-font, monospace;
-    background-color: $color-primary-1
+    background-color: $dark-slate-grey
 }
 
 .navigation-item {
     color: black;
-    border-bottom: 2px solid $color-complement-3;
+    border-bottom: 2px solid $darkest-slate-grey;
     text-decoration: none;
 }
 
@@ -70,10 +74,10 @@ code {
     position: absolute;
     top: 50%;
     left: 20px;
-    color: white;
+    /*color: $light-steel-blue;*/
 	direction: ltr;
 	h1 {
-        background: rgba(0,0,0,0.1);
+        background: rgba(0,0,0,0.01);
         position: relative;
         display: inline-block;
         color: white;
