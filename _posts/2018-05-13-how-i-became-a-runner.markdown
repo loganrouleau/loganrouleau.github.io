@@ -16,7 +16,7 @@ It was a 10k loop, and my first attempt took about 80 minutes. I ran the whole l
 
 Living in Northern Alberta, it's difficult to train through the winter. I did continue to run in the summers throughout university though. Somewhere around this time a friend convinced me to race a sprint triathlon. This was possibly my first racing experience, and I thoroughly enjoyed it despite my atrocious swimming ability.
 
-<img src="{{ site.baseurl }}assets/triathlon.jpg" alt="Running!" style="width: 100%">
+<img src="/assets/triathlon.jpg" alt="Running!" style="width: 100%">
 
 ## Faster and further
 
@@ -26,7 +26,7 @@ By the end of university I was running more regularly, up to 3 times/week in the
 
 After moving to Vancouver in 2016 I decided to train for the BMO Vancouver Marathon. This was my first time running consistent weeks over 40k, and I ended up succumbing to injury fairly early on. I transferred my registration to the half marathon and set a PR of just over 1:30. Later that summer I broke 19 minutes in the 5k. These past few months I've been averaging closer to 50k/week over 5-6 runs. I'm still working on reducing some of the quality tempo-style runs that I enjoy in order to ramp up the volume even more. I'm building on a great base at the moment, having set a 1:26 half a year ago.
 
-<img src="{{ site.baseurl }}assets/mec_5k.jpg" alt="Running!" style="width: 100%">
+<img src="/assets/mec_5k.jpg" alt="Running!" style="width: 75%">
 
 I find myself planning my life around running more and more, always trying to fit in longer runs on the weekend and being more methodically about where I place tempo runs, fartleks, track, and hill workouts. I've been uploading my runs to Strava for a couple years, which gives me a bit more visibility into my training since I never kept any training logs prior to that. I find the statistics very satisfying and motivating, and enjoy seeing the progress of others.
 

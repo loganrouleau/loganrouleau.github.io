@@ -14,6 +14,6 @@ You can find the source code for Jekyll at GitHub:
 [jekyll][jekyll-organization] /
 [jekyll](https://github.com/jekyll/jekyll)
 
-<img src="{{ site.baseurl }}assets/cover-image.jpg" alt="Running!" style="width: 20%">
+<img src="/assets/cover-image.jpg" alt="Running!" style="width: 20%">
 
 [jekyll-organization]: https://github.com/jekyll
