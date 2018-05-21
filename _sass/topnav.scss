@@ -14,29 +14,30 @@
 .topnav a {
   display: inline-block;
   color: $light-blue;
-  padding: 16px 16px;
+  padding: 12px 12px;
   text-decoration: none;
   font-size: 18px;
 }
 
 .topnav a:hover {
-  background-color: $dark-slate-grey;
-  color: black;
+  background-color: $vivid-red;
+  color: $dark-slate-grey;
 }
 
 .active {
-  background-color: $light-steel-blue;
-  color: white;
+  background-color: $darkest-slate-grey;
 }
 
 .topnav .icon {
   display: none;
 }
 
-@media screen and (max-width: 600px) {
-  .topnav a:not(:first-child) {display: none;}
+/* Nav-bar fits across mobile screen for now */
+
+/* @media screen and (max-width: 600px) {
+  //.topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
-    float: right;
+	float: right;
     display: block;
   }
 }
@@ -53,4 +54,4 @@
     display: block;
     text-align: left;
   }
-}
+} */
