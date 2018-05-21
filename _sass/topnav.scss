@@ -34,7 +34,7 @@
 
 /* Nav-bar fits across mobile screen for now */
 
-/* @media screen and (max-width: 600px) {
+/* @media screen and (max-width: $mobile-width-trigger) {
   //.topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
 	float: right;
@@ -42,7 +42,7 @@
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: $mobile-width-trigger) {
   .topnav.responsive {position: relative;}
   .topnav.responsive .icon {
     position: absolute;

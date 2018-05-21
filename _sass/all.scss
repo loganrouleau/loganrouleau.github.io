@@ -12,12 +12,9 @@ html {
     color: black;
 }
 
-body {
-	background-color: #efefef;
-}
-
 main {
 	width: $content-width;
+	max-width: 100%;
 	margin: auto auto;
 }
 
@@ -80,12 +77,11 @@ code {
     left: 20px;	
 	top: 50%;
 	
-	@media screen and (max-width: 600px) {
+	@media screen and (max-width: $mobile-width-trigger) {
 		left: -50px;
 		top: 25%;
 	}
 	
-    /*color: $light-steel-blue;*/
 	direction: ltr;
 	h1 {
         background: rgba(0,0,0,0.01);
@@ -106,7 +102,7 @@ code {
     transform: translateX(-50%);
 	direction: rtl;
 	
-	@media screen and (max-width: 600px) {
+	@media screen and (max-width: $mobile-width-trigger) {
 		left: 75%;
 		transform: translateX(-60%);
 	}
