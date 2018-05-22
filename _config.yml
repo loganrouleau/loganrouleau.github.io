@@ -3,6 +3,7 @@ author: Logan Rouleau
 email: lrouleau@ualberta.ca
 description: >
   Thoughts from a runner in Vancouver.
+# TODO: Remove baseurl property or change it to '/'
 baseurl: "/"
 url: "http://loganrouleau.com"
 

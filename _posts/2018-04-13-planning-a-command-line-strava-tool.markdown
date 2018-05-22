@@ -4,6 +4,7 @@ title:  "Planning a command-line Strava tool"
 date:   2018-04-13
 categories: blog
 ---
+
 Strava is great, but the information it stores for every activity could be used for so much more. I've registered a new project with Strava Apps, hoping to get at my raw activity data for some further analysis. Not knowing exactly what I wanted to do with it, I left my app description very general:
 
 "Advanced statistics and performance metrics for personal use."

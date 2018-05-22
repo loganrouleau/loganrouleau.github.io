@@ -18,14 +18,14 @@ main {
 	margin: auto auto;
 }
 
-.site-title {
-    color: $light-steel-blue;
-    text-decoration: none;
-}
-
 code {
     font-family: $code-font, monospace;
     background-color: $dark-slate-grey
+}
+
+.site-title {
+    color: $light-steel-blue;
+    text-decoration: none;
 }
 
 .navigation-item {
@@ -34,55 +34,37 @@ code {
     text-decoration: none;
 }
 
-.banner{
-    background-image: url("/assets/banner.jpg");
-    background-position: center top;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    height: 240px;
-    overflow: hidden;
-    h1 {
-            background:rgba(0,0,0,0.3);
-            position: relative;
-            visibility: visible;
-            display: inline-block;
-            color: white;
-            margin: 20px 20px 10px 10px;
-            padding: 6px 6px 6px 6px;
-          }
-    //width: 960px;
+.banner-container {
+	width: 960px;
+	height: 240px; 
+	max-width: 100%;
+    left: 50%;
+	position: absolute;
+    transform: translateX(-50%);
+	/* TODO: Experiment with ltr so scrollbar doesn't translate image */
+	direction: rtl;
 }
 
-.text-content {
-    text-align: center;
-    color: white;
-    visibility: hidden;
-    position: absolute;
-    background:rgba(0,0,0,0.3);
-    max-width: inherit;
-    h1 {
-        background:rgba(0,0,0,0.3);
-        position: relative;
-        visibility: visible;
-        display: inline-block;
-        color: white;
-        margin: 20px 20px 10px 10px;
-        padding: 6px 6px 6px 6px;
-		border: 1px solid black;
-      }
+.banner-image {
+	overflow: hidden;
+	
+	img {	
+		@media screen and (max-width: $mobile-width-trigger) {
+			transform: translateX(8%);
+		}
+	}		
 }
 
-.text-block {
+.banner-text {
     position: absolute;
     left: 20px;	
+	direction: ltr;
 	top: 50%;
 	
 	@media screen and (max-width: $mobile-width-trigger) {
-		left: -50px;
-		top: 25%;
+		top: 30%;
 	}
 	
-	direction: ltr;
 	h1 {
         background: rgba(0,0,0,0.01);
         position: relative;
@@ -92,18 +74,11 @@ code {
       }
 }
 
-.container {
-	width: 960px;
-	height: 240px; 
-	max-width: 100%;
-    left: 50%;
+.header-space {
+	height: 30px;
 	
-	position: absolute;
-    transform: translateX(-50%);
-	direction: rtl;
-	
-	@media screen and (max-width: $mobile-width-trigger) {
-		left: 75%;
-		transform: translateX(-60%);
+	@media screen and (max-width: $content-width) {
+		height: 10px;
+		background-color: white;
 	}
 }

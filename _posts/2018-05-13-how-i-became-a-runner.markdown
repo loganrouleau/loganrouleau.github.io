@@ -4,6 +4,7 @@ title:  "How I became a runner"
 date:   2018-05-13
 categories: blog
 ---
+
 I've been running for about 8 years. Occasionally I reflect on the progress I've made in that time, and I thought it would be interesting to write some of it down in detail.
 
 ## Early years
