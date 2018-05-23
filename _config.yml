@@ -5,7 +5,7 @@ description: >
   Thoughts from a runner in Vancouver.
 # TODO: Remove baseurl property or change it to '/'
 baseurl: "/"
-url: "http://loganrouleau.com"
+url: "https://loganrouleau.com"
 
 # Build settings
 markdown: kramdown
