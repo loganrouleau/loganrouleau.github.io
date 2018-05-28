@@ -6,10 +6,15 @@ description: >
 # TODO: Remove baseurl property or change it to '/'
 baseurl: "/"
 url: "https://loganrouleau.com"
+permalink: pretty
 
 # Build settings
 markdown: kramdown
-permalink: pretty
+
+# Syntax highlighting
+kramdown:
+    input: GFM
+    syntax_highlighter: rouge
 
 plugins:
   - jekyll-feed
