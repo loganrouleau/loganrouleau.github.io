@@ -12,6 +12,11 @@ html {
     color: black;
 }
 
+p {
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
 main {
 	width: $content-width;
 	max-width: 100%;
