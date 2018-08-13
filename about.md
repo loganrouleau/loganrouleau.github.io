@@ -4,16 +4,8 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+I built this site to introduce myself to web frameworks. I would eventually like it to become my landing page, but for now it is a simple blog for me to discuss hobbies and interests like running. The next big enhancement will be comment integration.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+At first I tried out a few built-in Jekyll themes, but the current rendition is not strongly based on anything. I prefer a simple minimalist style. You can find out more about creating a static website with Jekyll at [jekyllrb.com](https://jekyllrb.com/).
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-<img src="/assets/cover-image.jpg" alt="Running!" style="width: 20%">
-
-[jekyll-organization]: https://github.com/jekyll
+Banner image: Northover Ridge in the Canadian Rockies.

@@ -13,7 +13,11 @@ Since this was my first ultra I meticulously prepared a race day plan, studied e
 
 This leg has nearly half of the elevation gain of the entire race. The climb up Black Mountain is relentless, and I found it difficult to know how hard to push since the leg is so unique compared to those following it. The climbing begins immediately after the start, and I settled in for the long haul along with 250 others. About 10 minutes into the race I felt a sudden sharp needle-like pain below my right calf, which I initially though was a thorn or bramble but judging from all the swelling today is an insect bite of some sort. How it managed to bite me as I was running by is a bit mysterious. After smacking my leg a bit the pain dulled and was quickly forgotten.
 
+<img src="/assets/2018Kneeknacker_RockSlab.jpg" style="width: 100%">
+
 The rest of the leg was more or less uneventful. I had people to run with, and although I was ahead of pace I was feeling strong.
+
+<img src="/assets/2018Kneeknacker_EagleBluffs.jpg" style="width: 75%">
 
 Actual leg time: 1:28:27
 
@@ -33,6 +37,8 @@ I felt somewhat refreshed after the long downhill, but the steep descent and all
 
 Leaving the aid station I followed one of the lead women up the only paved section on the entire course to the Grouse Grind trailhead. After passing the Grouse Grind and BCMC entrances, the trail continues climbing before levelling off and beginning to dip back down to Mosquito Creek. I was feeling rough through this stretch but was still moving well.
 
+<img src="/assets/2018Kneeknacker_Grouse.jpg" style="width: 100%">
+
 I lost track of distance and was a little bit surprised when I found myself at Lynn Headwaters a few short kilometers later. I had forgotten how close Lynn Headwaters was to the Mountain Highway crossing. Knowing I was now very close to the final major aid station, I picked it up a little.
 
 Actual leg time: 1:43:23
@@ -43,7 +49,11 @@ I was quite relieved to have finished the previous leg and looking forward to a 
 
 Although I was still on track for a 6:15 finish I knew going into the final leg that I wasn't racing anymore. I was now focused solely on completing the leg. Almost 20 people passed me during my final 2 hours on the course, and without them I would have been much slower yet. Each time someone went by I said hi or congratulated them and then tried to stay behind them for as long as I could before taking another walking break.
 
+<img src="/assets/2018Kneeknacker_Hyannis.jpg" style="width: 100%">
+
 Unfortunately this was the section of the course I was also least familiar with, having only been through it once. I knew a big climb up to Mount Seymour Road was coming, but I didn't know where it started. It kept looming over me for what felt like an hour and had me bracing myself with each little uphill section. I was quite confused when I heard someone playing "When the Saints Go Marching In" on a clarinet from a bush at the side of the trail. His friend offered me a ginger ale and informed me that I was at the top of the climb. In my disoriented state I replied "Yup, almost there!", thinking I had another 15 minutes of climbing remaining and that the top was at Mount Seymour Road. As it turned out there is a sizeable flat section before Mount Seymour Road which I jogged extremely slowly since I was conserving energy for the rest of a climb which never materialized.
+
+<img src="/assets/2018Kneeknacker_NearPanorama.jpg" style="width: 100%">
 
 The rest of the leg went more or less as planned. All of the steep staircases on the Quarry Rock hike crippled me, but I was able to jog the rest of it. When I hit the pavement at the end of the Baden Powell I let the wheels fly, and cruised down to the finish line in 3:50/km speed as though I hadn't just taken a 5 minute walking break on flat trail eating a Freezie 30 minutes earlier.
 
@@ -52,6 +62,8 @@ Actual leg time: 2:03:22
 ## The Finish Line
 
 Official time: 6:30:46, 33/172 men.
+
+<img src="/assets/2018Kneeknacker_Finishline.jpg" style="width: 100%">
 
 I was physically and mentally exhausted, and relieved to be finished. The experience was so different from road racing, and demanded quite a different set of skills. I've become quite familiar with the road racing pattern of staying right below your threshold for as long as possible, and letting the discomfort creep in and slowly build up until the finish line. In a longer trail run though, there are moments that feel very easy, and other moments where you are pushed past your breaking point into a slow hiking speed.
 

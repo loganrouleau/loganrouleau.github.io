@@ -5,17 +5,21 @@ date:   2018-04-13
 categories: blog
 ---
 
-Strava is great, but the information it stores for every activity could be used for so much more. I've registered a new project with Strava Apps, hoping to get at my raw activity data for some further analysis. Not knowing exactly what I wanted to do with it, I left my app description very general:
+(Updated August 12, 2018)
 
-"Advanced statistics and performance metrics for personal use."
+Strava is great, and I generally like how it presents my activities to me, but the data it stores could be presented in many other ways as well. I've registered a new project with Strava Apps, hoping to get at my raw activity data for some further analysis. Not knowing exactly what I wanted to do with it, I left my app description very general: "Advanced statistics and performance metrics for personal use".
 
 ## Goals
 
-What am I looking for? One thing that bothers me about Strava is the weak divide between activity types. I can go into my Training Log and filter by sport, but I find it hard to get a sense of the numbers and trends from this view. From my profile
+What am I looking for? One thing that bothers me about Strava is the weak divide between activity types. I can go into my Training Log and filter by sport, but I find it hard to get a sense of the numbers and trends from this view. From my profile I can see my weekly total activity distance for the past year, but this view is of limited use to me since biking is weighted so heavily.
+
+<img src="/assets/strava-weekly-view.gif" alt="Strava's weekly view" style="width: 100%">
+
+I biked a lot the first week of June, and it dominates the view. I will look into ignoring non-running data and giving a more informative weekly breakdown, maybe with an average speed, fastest/slowest run and longest/shortest run. I've opted for a CLI solution to get more familiar with command line parsing.
 
 ## Prototype
 
-So far my Java prototype only gives me a list of activities for a specified date range. The output from `java -jar strava-stats-1.0-SNAPSHOT-jar-with-dependencies.jar list -start 2018-04-012 -end 2018-04-13` shows a recent run:
+So far my Java prototype only gives me a list of activities for a specified date range. The output from `$ java -jar strava-stats-1.0-SNAPSHOT-jar-with-dependencies.jar list -start 2018-04-012 -end 2018-04-13` shows a recent run:
 
 ```
 class SummaryActivity {
@@ -65,4 +69,6 @@ class SummaryActivity {
 }
 ```
 
-sds 
+This gives me my distance, elapsed time, and elevation gain which I already knew from the UI, but adds on some extra data such as averageSpeed (in m/s unfortunately, instead of s/km or min/km) and maxSpeed. I found it interesting how the route line is encoded in a long String. 
+
+I'll keep playing with the data and find a way to present it.
