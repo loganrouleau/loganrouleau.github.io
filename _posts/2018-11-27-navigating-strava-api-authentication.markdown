@@ -15,11 +15,11 @@ After setting up your app, in Settings - My API Application you will find your C
 
 Send a GET request with the required fields.
 
-<img src="/assets/strava-auth-1.jpg" style="width: 100%">
+<img src="/assets/strava-auth-1.JPG" style="width: 100%">
 
 If you don't actually have a server listening for the callback yet, you can paste the request into your browser and see the code returned. First, you (or your eventual app user) will have to log in and allow access to the app.
 
-<img src="/assets/strava-auth-2.jpg" style="width: 80%">
+<img src="/assets/strava-auth-2.JPG" style="width: 80%">
 
 Once approved, Strava will call you on your configured redirect uri with a code. My browser tried (and failed, as expected) to redirect me to  `https://localhost:8081/?state=&code=bf6d51fefd1ad7dc0b4b58d41dffa6aed1c77b70&scope=read,activity:read_all`.
 
@@ -27,11 +27,11 @@ Once approved, Strava will call you on your configured redirect uri with a code.
 
 Send a POST with the code you obtained in Step 1.
 
-<img src="/assets/strava-auth-3.jpg" style="width: 100%">
+<img src="/assets/strava-auth-3.JPG" style="width: 100%">
 
 You're done! The access token provided is valid for 6 hours, and can be used immediately to access the API. Remember that Authorization: Bearer [[token]] is an HTTP Header, not a query parameter.
 
-<img src="/assets/strava-auth-4.jpg" style="width: 100%">
+<img src="/assets/strava-auth-4.JPG" style="width: 100%">
 
 ## 3. Refreshing a Token
 
@@ -39,6 +39,6 @@ If you need to refresh a token, a POST request similar to the one in the previou
 
 The main differences are changing the `grant_type` value to `refresh_token` and using the refresh token you were given in Step 2 in place of the code parameter.
 
-<img src="/assets/strava-auth-5.jpg" style="width: 100%">
+<img src="/assets/strava-auth-5.JPG" style="width: 100%">
 
 Since I did this only a few minutes after obtaining my token, I received the same access token in this step. Note that the `expires_in` field has changed.
