@@ -45,7 +45,7 @@ Actual leg time: 1:43:23
 
 ## Leg 4 - 12.6 km, plan: 1:35 - 1:50
 
-I was quite relieved to have finished the previous leg and looking forward to a few minutes of rest. I had planned to stop for up to 5 minutes at each major aid station depending on how I was feeling. Alternating between ice cold sponges and frantically chewing some solid food, 5 minutes went be fast. I said goodbye to my crew for the last time and headed off toward Mount Seymour Road.
+I was quite relieved to have finished the previous leg and looking forward to a few minutes of rest. I had planned to stop for up to 5 minutes at each major aid station depending on how I was feeling. Alternating between ice cold sponges and frantically chewing some solid food, 5 minutes went by fast. I said goodbye to my crew for the last time and headed off toward Mount Seymour Road.
 
 Although I was still on track for a 6:15 finish I knew going into the final leg that I wasn't racing anymore. I was now focused solely on completing the leg. Almost 20 people passed me during my final 2 hours on the course, and without them I would have been much slower yet. Each time someone went by I said hi or congratulated them and then tried to stay behind them for as long as I could before taking another walking break.
 
