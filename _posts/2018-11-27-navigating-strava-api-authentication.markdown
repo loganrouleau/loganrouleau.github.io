@@ -5,7 +5,7 @@ date:   2018-11-27
 categories: blog
 ---
 
-On October 15, 2018 Strava made a small change to their [API authentication flow](https://developers.strava.com/docs/authentication/). Changes included removal of permanent access tokens (effective Oct. 2019), and improvements to the documentation. Having struggled to understand the previous version of Strava's OAuth2 implementation, I thought I would walk through the new process required to obtain an access token. 
+On October 15, 2018 Strava made a small change to their [API authentication flow](https://developers.strava.com/docs/authentication/). Changes included removal of permanent access tokens (effective Oct. 2019), and improvements to the documentation. Having struggled to understand the previous version of Strava's OAuth2 implementation, I thought I would walk through the new process required to obtain an access token from within a Strava API App.
 
 This post will be language agnostic - I'll use Postman and my browser to make the required HTTP calls. The intent is to help with integrating the process into a Strava app by giving a concrete example of how to do it.
 
