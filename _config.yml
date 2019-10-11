@@ -13,15 +13,17 @@ markdown: kramdown
 
 # Syntax highlighting
 kramdown:
-    input: GFM
-    syntax_highlighter: rouge
+  input: GFM
+  syntax_highlighter: rouge
 
 plugins:
   - jekyll-feed
 
-navigation:
+navigation_internal:
   - title: About
     url: /about
+
+navigation_external:
   - title: Strava
     url: https://www.strava.com/athletes/19307941
   - title: GitHub
@@ -29,8 +31,8 @@ navigation:
 
 # Sass settings
 sass:
-    sass_dir: _sass
-    style: :compressed
+  sass_dir: _sass
+  style: :compressed
 
 exclude:
   - Gemfile

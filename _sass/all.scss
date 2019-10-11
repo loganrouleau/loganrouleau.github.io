@@ -7,96 +7,96 @@
 }
 
 html {
-    font-family: 'PT Sans', sans-serif;
-    background-color: white;
-    color: black;
+  font-family: "PT Sans", sans-serif;
+  background-color: white;
+  color: black;
 }
 
 p {
-	padding-bottom: 10px;
-	padding-top: 10px;
+  padding-bottom: 10px;
+  padding-top: 10px;
 }
 
 main {
-	width: $content-width;
-	max-width: 100%;
-	margin: auto auto;
+  width: $content-width;
+  max-width: 100%;
+  margin: auto auto;
 }
 
 pre {
-    white-space: pre-wrap; //css3
-    white-space: moz-pre-wrap; //firefox
-    white-space: -pre-wrap; //opera 4-6
-    white-space: -o-pre-wrap; //opera 7
-    word-wrap: break-word; //internet explorer
+  white-space: pre-wrap; //css3
+  white-space: moz-pre-wrap; //firefox
+  white-space: -pre-wrap; //opera 4-6
+  white-space: -o-pre-wrap; //opera 7
+  word-wrap: break-word; //internet explorer
 }
 
 code {
-	color: red;
-	background-color: #f8f8f8;
+  color: red;
+  background-color: #f8f8f8;
 }
 
 pre > code {
-	color: black;
-	background-color: rgba(0,0,0,0);
+  color: black;
+  background-color: rgba(0, 0, 0, 0);
 }
 
 .site-title {
-    color: $light-steel-blue;
-    text-decoration: none;
+  color: $light-steel-blue;
+  text-decoration: none;
 }
 
 .navigation-item {
-    color: black;
-    border-bottom: 2px solid $darkest-slate-grey;
-    text-decoration: none;
+  color: black;
+  border-bottom: 2px solid $darkest-slate-grey;
+  text-decoration: none;
 }
 
 .banner-container {
-	width: 960px;
-	height: 240px; 
-	max-width: 100%;
-    left: 50%;
-	position: absolute;
-    transform: translateX(-50%);
-	/* TODO: Experiment with ltr so scrollbar doesn't translate image */
-	direction: rtl;
+  width: 960px;
+  height: 240px;
+  max-width: 100%;
+  left: 50%;
+  position: absolute;
+  transform: translateX(-50%);
+  /* TODO: Experiment with ltr so scrollbar doesn't translate image */
+  direction: rtl;
 }
 
 .banner-image {
-	overflow: hidden;
-	
-	img {	
-		@media screen and (max-width: $mobile-width-trigger) {
-			transform: translateX(8%);
-		}
-	}		
+  overflow: hidden;
+
+  img {
+    @media screen and (max-width: $mobile-width-trigger) {
+      transform: translateX(8%);
+    }
+  }
 }
 
 .banner-text {
-    position: absolute;
-    left: 20px;	
-	direction: ltr;
-	top: 50%;
-	
-	@media screen and (max-width: $mobile-width-trigger) {
-		top: 30%;
-	}
-	
-	h1 {
-        background: rgba(0,0,0,0.01);
-        position: relative;
-        display: inline-block;
-        color: white;
-        padding: 10px 10px 10px 10px;
-      }
+  position: absolute;
+  left: 20px;
+  direction: ltr;
+  top: 50%;
+
+  @media screen and (max-width: $mobile-width-trigger) {
+    top: 30%;
+  }
+
+  h1 {
+    background: rgba(0, 0, 0, 0.01);
+    position: relative;
+    display: inline-block;
+    color: white;
+    padding: 10px 10px 10px 10px;
+  }
 }
 
 .header-space {
-	height: 30px;
-	
-	@media screen and (max-width: $content-width) {
-		height: 10px;
-		background-color: white;
-	}
+  height: 30px;
+
+  @media screen and (max-width: $content-width) {
+    height: 10px;
+    background-color: white;
+  }
 }

@@ -1,31 +1,40 @@
 <header>
-    {% if page.title %}
-    <title>{{ page.title }} | {{ site.author }}</title>
-    {% else %}
-    <title>{{ site.author }}</title>
-    {% endif %}
+  {% if page.title %}
+  <title>{{ page.title }} | {{ site.author }}</title>
+  {% else %}
+  <title>{{ site.author }}</title>
+  {% endif %} {%- include banner.html -%}
 
-    {%- include banner.html -%}
+  <div class="topnav" id="myTopnav">
+    <a href="/" class="active">Home</a>
+    {% for entry in site.navigation_internal %}
+    <a href="{{ entry.url }}">{{ entry.title }}</a>
+    {% endfor %} {% for entry in site.navigation_external %}
+    <a class="external-link" href="{{ entry.url }}"
+      >{{ entry.title }}
+      <i class="fa fa-external-link"></i>
+    </a>
 
-    <div class="topnav" id="myTopnav">
-        <a href="/" class="active">Home</a>
-        {% for entry in site.navigation %}
-        <a href="{{ entry.url }}">{{ entry.title }}</a>
-        {% endfor %}
-        <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
-    </div>
+    {% endfor %}
+    <a
+      href="javascript:void(0);"
+      style="font-size:15px;"
+      class="icon"
+      onclick="myFunction()"
+      >&#9776;</a
+    >
+  </div>
 
-    <script>
-		function myFunction() {
-			var x = document.getElementById("myTopnav");
-			if (x.className === "topnav") {
-				x.className += " responsive";
-			} else {
-				x.className = "topnav";
-			}
-		}
-    </script>
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+  </script>
 
-	<div class="header-space">
-	</div>
+  <div class="header-space"></div>
 </header>
