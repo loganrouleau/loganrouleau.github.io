@@ -5,7 +5,7 @@ date: 2019-10-13
 categories: blog
 ---
 
-Inspired by Eliud Kipchoge's sub-2 marathon yesterday (<https://www.nytimes.com/2019/10/13/opinion/eliud-kipchoge-marathon-record.html>) and Kenenisa Bekele's near world record a couple weeks ago, I'm finally taking a look at my training leading up to the 2019 BMO Vancouver Marathon last May. I followed Pete Pfitzinger's 18/55 plan, which calls for 18 weeks of training building up to a maximum of 55 miles (89 km) per week.
+Inspired by Eliud Kipchoge's sub-2 marathon yesterday and Kenenisa Bekele's near world record a couple weeks ago, I'm finally taking a look at my training leading up to the 2019 BMO Vancouver Marathon last May. I followed Pete Pfitzinger's 18/55 plan, which calls for 18 weeks of training building up to a maximum of 55 miles (89 km) per week.
 
 ## Training Summary
 
